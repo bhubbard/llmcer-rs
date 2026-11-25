@@ -1,0 +1,10 @@
+[package]
+name = "llmcer-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Pure-Rust LLMCER parallelized LLM entity resolution (NRS, MDG guardrail, CMR hierarchical merge)"
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true

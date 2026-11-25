@@ -1,0 +1,16 @@
+[package]
+name = "llmcer-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI for LLMCER entity resolution and pairwise F1 evaluation"
+
+[[bin]]
+name = "llmcer"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+llmcer-core = { path = "../llmcer-core" }
+serde_json.workspace = true
